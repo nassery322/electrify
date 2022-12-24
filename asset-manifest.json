@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/electrify/static/css/main.9b0131b8.css",
+    "main.js": "/electrify/static/js/main.dd6f4b95.js",
+    "static/js/787.28cb0dcd.chunk.js": "/electrify/static/js/787.28cb0dcd.chunk.js",
+    "static/media/electrobackground.jpg": "/electrify/static/media/electrobackground.b39e54758466475c4e0c.jpg",
+    "static/media/20.png": "/electrify/static/media/20.c96cbe05b6540c0264cd.png",
+    "static/media/about.png": "/electrify/static/media/about.d93ac465fede5f605ae3.png",
+    "static/media/10.jpg": "/electrify/static/media/10.6d3e714b47cc9e79b0c2.jpg",
+    "static/media/parallax.jpg": "/electrify/static/media/parallax.a09f4e097426891a8904.jpg",
+    "static/media/metrom0.jpg": "/electrify/static/media/metrom0.f2de3d38d6ae65ca4603.jpg",
+    "static/media/pi4.jpg": "/electrify/static/media/pi4.bc6c78ed338db7bdde64.jpg",
+    "static/media/ipodtouch.jpg": "/electrify/static/media/ipodtouch.c24642e6afa2fbcd0c38.jpg",
+    "static/media/31.jpg": "/electrify/static/media/31.751ad580e4a1b32da9be.jpg",
+    "static/media/trinket.jpg": "/electrify/static/media/trinket.b4d17ac94d51f6a9a0c4.jpg",
+    "static/media/12.jpg": "/electrify/static/media/12.6f8004c2c61d3ad105d7.jpg",
+    "static/media/35.jpg": "/electrify/static/media/35.297f58d3011526ac6eeb.jpg",
+    "static/media/ada.jpg": "/electrify/static/media/ada.4b705774eb2789036b6c.jpg",
+    "static/media/37.jpg": "/electrify/static/media/37.f32b354e0684ec903fc4.jpg",
+    "static/media/14.jpg": "/electrify/static/media/14.0f6cc67250cbcd18fc75.jpg",
+    "static/media/tinker.jpg": "/electrify/static/media/tinker.5354531234ef40af5b5d.jpg",
+    "static/media/33.jpg": "/electrify/static/media/33.9b8ea78beec239524e75.jpg",
+    "static/media/15.jpg": "/electrify/static/media/15.ace6e9947f9ead122a56.jpg",
+    "static/media/17.jpg": "/electrify/static/media/17.f69847eb26324f7f45f8.jpg",
+    "static/media/3.jpg": "/electrify/static/media/3.ad5b0caeb10d20891aac.jpg",
+    "static/media/13.jpg": "/electrify/static/media/13.4374f9edcedd21d10391.jpg",
+    "static/media/16.jpg": "/electrify/static/media/16.d4e9309849182a16a7ac.jpg",
+    "static/media/22.jpg": "/electrify/static/media/22.ffc556a6a308ce8b6347.jpg",
+    "static/media/11.jpg": "/electrify/static/media/11.9238d016c30f19b5d4aa.jpg",
+    "static/media/7.jpg": "/electrify/static/media/7.8a4e4e06de488c6d04ef.jpg",
+    "index.html": "/electrify/index.html",
+    "main.9b0131b8.css.map": "/electrify/static/css/main.9b0131b8.css.map",
+    "main.dd6f4b95.js.map": "/electrify/static/js/main.dd6f4b95.js.map",
+    "787.28cb0dcd.chunk.js.map": "/electrify/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0131b8.css",
+    "static/js/main.dd6f4b95.js"
+  ]
+}
