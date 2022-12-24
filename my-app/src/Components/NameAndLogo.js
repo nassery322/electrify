@@ -1,5 +1,5 @@
 import React from 'react'
-import './Name.css'
+import './NameAndLogo.css'
 
 const NameAndLogo = props =>{
 return <React.Fragment>
