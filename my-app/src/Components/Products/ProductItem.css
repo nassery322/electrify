@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+.product-item{
+    border:none; width:15%;  padding:10px; font-family: 'Rajdhani', sans-serif; font-weight: 700; display: inline-block; margin-right:0%;  z-index: 6;
+
+} 
+.product-image{
+    width:100%;
+}
+.product-image img{ display: block;
+    width:70%; height: 28vh;  margin-right:auto; margin-left:auto; transition: .3s all; margin-bottom:5% ; }
+.product-title{margin-top:3%;
+     height: 2.7rem; font-size: 1.3rem;
+}
+.product-price{
+   font-size: 1.3rem; color:#ff1d58;
+}
+.section2{ width:100%;
+     display: flex; align-items: center; height:10vh;
+justify-content: space-between;}
+
+.product-item:hover img{
+    transform: scale(1.1);
+}
+@media screen and ( max-width: 1375px){
+    
+}
+@media screen and ( max-width: 1285px){
+    .product-item{
+        width:23%;
+    }
+    .product-image img{
+        width:60%;
+    }
+    
+}
+@media screen and ( max-width: 1075px){
+    .product-item{
+        width:30%;
+    }
+    .product-image img{
+        width:50%;
+    }
+    .product-description{font-size: 1.1rem !important;}
+
+}
+@media screen and ( max-width: 900px){
+  
+    .product-title{
+        margin-bottom:2% !important;
+    }
+}
+@media screen and ( max-width: 900px){
+    .product-item{ 
+        width:45% !important;
+    }
+    .product-image img{
+        width:50%;
+    }
+    .product-description{font-size: 1rem !important;}
+}
+@media screen and ( max-width: 640px){
+    .product-item{
+        width:93% !important; border:none !important; border-bottom: solid 1px !important; margin-bottom: 8px;
+    }
+    .product-image img{
+        width:30% !important;  float: none !important; margin-right: auto !important; margin-left: auto !important; 
+    }
+}
+@media screen and ( max-width: 540px){
+    .product-item{ margin-right: auto !important; margin-left: auto !important;
+        width:93% !important; float: none !important;
+    }
+    .product-image img{ float: none !important;
+        width:40% !important; margin-left:auto !important; margin-right: auto !important;
+
+    }
+   
+}
+
+@media screen and ( max-width: 400px){
+    .product-image img{
+        height: 37vh !important; float: none !important; width: 70% !important; margin-right:auto !important; margin-left: auto !important;
+    }
+    .product-item{
+        width:93.5% !important; background-color: white; 
+    }
+    .product-description{
+        width:94.5% !important;
+    }
+}
+
+
+@media screen and ( max-width: 370px){
+    .product-image img{
+        height: 40vh !important; float: none !important; width: 60% !important; margin-right:auto !important; margin-left: auto !important;
+    }
+    .product-item{
+        width:90.5% !important; background-color: white; 
+    }
+    .product-description{
+        width:94.5% !important;
+    }
+}

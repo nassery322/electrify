@@ -1,0 +1,17 @@
+.products{
+    height:auto !important; width: 100%; 
+}
+
+.product-items{
+    margin-right:auto !important; margin-left:auto !important; width:98.2% !important; box-sizing: border-box; padding-left: 20px; }
+
+
+
+@media screen and ( max-width: 400px){
+    .products{
+        width:100%; height:auto;
+    }
+    .product-items{
+        width:98.3% !important; padding:0; padding-left: 0;
+    }
+}

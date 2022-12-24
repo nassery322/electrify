@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.home{
+    color:white; 
+    height:100vh; background-image:url(../../assets/electrobackground.jpg); background-attachment:fixed ; background-repeat:no-repeat; background-size:cover; 
+    width: 100%; z-index: 6;
+}
+
+.home-header{
+    display: flex; align-items: center;  width:60%;  font-size:5rem; height:10rem;  font-family: 'Electrolize', sans-serif; margin-top:10%; text-indent: 10%;
+}
+.home-quote{
+      font-size:2.2rem; font-family: 'Electrolize', sans-serif; animation-name: home; animation-duration: 1s; animation-fill-mode: forwards; text-indent: 20%; 
+}
+.home-message{
+    font-size:2.6rem; margin-top:4rem;  text-align: center; animation-name: home; animation-duration: 1s; animation-delay: 800ms;  transform: translateX(-100%); animation-fill-mode: forwards; 
+}
+@keyframes home {
+    from{
+          opacity: 0; transform: translateX(-100%); 
+    }
+    to{
+         opacity: 1;  transform: translateX(0%); 
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .home-header {
+      font-size: 3rem;
+    }
+    .home-quote {
+      font-size: 1.4rem;
+      text-indent: 0%;
+    }
+    .home-message {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Adjust styles for screens smaller than 500px wide */
+  @media (max-width: 520px) {
+    .home-header {
+      font-size: 2rem;
+    }
+    .home-quote {
+      font-size: 1.2rem;
+    }
+    .home-message {
+      font-size: 1.5rem;
+    }
+  }

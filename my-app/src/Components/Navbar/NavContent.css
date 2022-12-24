@@ -1,0 +1,28 @@
+li{
+    list-style-type: none; 
+}
+.nav-content ul li{
+display: inline-block; margin-right:25px; font-size: 1.1rem;
+}
+ul li a {
+    text-decoration: none; color:white; display: inline-block;
+}
+
+#nav-btn{
+    display: none; font-size: 1.5rem; cursor: pointer;
+}
+
+@media screen and (max-width:690px){
+    ul li  a{
+        display: none; color: black !important; margin-bottom: 4px;
+    }
+    ul li{
+        
+    }
+    ul li a:hover{
+        background-color:orange !important;
+    }
+    #nav-btn{
+        display: block; float:right; 
+    }
+}

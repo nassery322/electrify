@@ -1,0 +1,36 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height:7vh;
+  }
+  
+  .cart-item-title {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cart-item-price {
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f60;
+  }
+  
+  .cart-item-remove {
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .cart-item-remove:hover {
+    color: #f60;
+  }
+  

@@ -1,0 +1,46 @@
+.service-item{
+    width:21%; height:39vh; overflow: hidden; padding: 10px; text-align: center; display: inline-block; margin-right:5%; margin-left: 5%;  border-radius: 18px; background-color: #25274d; font-size:1.1rem;  color:white; word-spacing: 3px; letter-spacing: 1px;}
+
+.service-header{
+    margin-bottom: 8%; font-size: 1.6rem; color: #da1459;
+}
+
+
+.hover {
+    border: 4px solid #BD1550;
+    border-image: #BD1550;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 8px right 8px, rgba(224, 39, 39, 0.855) 90deg,rgb(156, 75, 75) 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  rgb(172, 63, 63) 90deg,rgb(201, 87, 87) 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(rgb(225, 66, 66) 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+    transition-delay:0ms !important ;
+  }
+  .hover:hover {
+    --_i: 100%;
+    transition: .3s, -webkit-mask-size .3s .3s;
+  }
+
+  @media screen and (max-width:500px){
+    .service-item{
+      margin-right:5% !important; margin-left: 5% !important;
+width:92% !important; height: auto !important; padding: 5px; font-size: 1rem;
+
+    }
+  }
+  @media (max-width:1344px){
+    .service-item{
+      width: 20%;  height: auto;
+    }
+  }
+  @media (max-width:1170px){
+    .service-item{
+      width: 40%;  height: auto; margin-bottom: 0 !important; margin-right:0 !important;
+    }
+  }
+  @media (max-width:830px){
+    .service-item{width:94%; margin-right:0 !important; margin-left: 0 !important;}
+
+  }

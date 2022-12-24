@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+ @keyframes boltColorChanger {
+    from{
+     color: white;
+    }
+    to{
+     color:rgb(204, 204, 27);
+    }
+ } 
+
+
+.name-logo{
+    display: flex; align-items: center;  
+max-width:15%; min-width: 40px; color:white; z-index: 10;
+}
+.name{
+    font-family: 'Quicksand', sans-serif; letter-spacing: 6px;
+}
+.logo{
+    font-size: 3rem; color: rgb(204, 204, 27); animation: boltColorChanger 0.8s; animation-iteration-count: infinite;
+}
+
+
+@media (max-width:500px){
+    .name {
+        font-size: 1rem;
+    }
+    .name-logo{
+        width:100px !important; 
+    }
+    .logo{
+        font-size: 2rem;
+    }
+}
+
