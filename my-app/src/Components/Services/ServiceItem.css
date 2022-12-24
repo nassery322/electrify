@@ -31,16 +31,28 @@ width:92% !important; height: auto !important; padding: 5px; font-size: 1rem;
     }
   }
   @media (max-width:1344px){
-    .service-item{
-      width: 20%;  height: auto;
+    .service-item{ margin-right: 2%; margin-left: 2%;
+      width: 26.5%;  
     }
   }
   @media (max-width:1170px){
     .service-item{
-      width: 40%;  height: auto; margin-bottom: 0 !important; margin-right:0 !important;
+      width: 43%;   margin-bottom: 0 !important; margin-right:0 !important;
+    }
+    .service-header{
+      margin-bottom: 12% !important;
     }
   }
   @media (max-width:830px){
-    .service-item{width:94%; margin-right:0 !important; margin-left: 0 !important;}
+    .service-item{width:94%; margin-right:0 !important; margin-left: 0 !important; 
+    height: auto !important;}
+.service-header{
+  margin-bottom: 8% !important;
+}
 
+  }
+  @media (zoom:125%){
+    .service-item{
+      background-color: red !important;
+    }
   }

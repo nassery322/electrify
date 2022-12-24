@@ -35,7 +35,7 @@ import ServiceItem from './ServiceItem'
         {
         id: 6,
         name: "Payment methods",
-        description: "We accept the following payment methods:Credit Card, visa Card, Paypal, Crypto Currency : Bitcoin and etterium only. All payments are processed securely through our payment gateway. ",
+        description: "We accept the following payment methods:Credit Card, visa Card, Paypal, Crypto Currency : Bitcoin and etterium only. All payments are processed securely through our payment gateway. Feel free to contact us with any payment questions or concerns. ",
         style: {'marginBottom': '0%',
             'transitionDelay' : "400ms" }
         },

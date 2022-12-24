@@ -64,7 +64,7 @@ justify-content: space-between;}
         width:93% !important; border:none !important; border-bottom: solid 1px !important; margin-bottom: 8px;
     }
     .product-image img{
-        width:30% !important;  float: none !important; margin-right: auto !important; margin-left: auto !important; 
+        width:30% !important; height: auto !important;  float: none !important; margin-right: auto !important; margin-left: auto !important; 
     }
 }
 @media screen and ( max-width: 540px){
