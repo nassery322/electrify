@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
 .home{
-    color:white; 
+    color:red; 
     height:100vh; background-image:url(../../assets/electrobackground.jpg); background-attachment:fixed ; background-repeat:no-repeat; background-size:cover; 
     width: 100%; z-index: 6;
 }
