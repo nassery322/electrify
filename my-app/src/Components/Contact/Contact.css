@@ -1,5 +1,5 @@
 .contact{
-    display: flex; height: 12vh; flex-direction: row; justify-content: space-between; align-items: center; background-color: rgb(220, 222, 223);
+    display: flex; height: auto; flex-direction: row; justify-content: space-between; align-items: center; background-color: rgb(220, 222, 223);
 }
 .copyright{
     font-size: 1.3rem;

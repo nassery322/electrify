@@ -48,7 +48,10 @@ border-top-right-radius: 10px;
 
 @media only screen and (max-width: 800px){
   .sorting select{
-    width:62%; height: 30px;
+    width:46%; height: 30px;
+  }
+  .sorting {
+    width: 40%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -81,6 +84,8 @@ border-top-right-radius: 10px;
       width: 50% !important;
     }
     .view button {
+      font-size: .8rem !important;
+
       /* Further reduce the width on smaller screens */
       width: 20%;
     }
@@ -125,10 +130,21 @@ border-top-right-radius: 10px;
     }
   
     .view {
-     width: 40%; font-size: 1rem; 
+     width: 40% ; font-size: 1rem; 
     }
   
     .view button {
       
     }
   }
+
+@media (max-width:300px){
+  .view button {
+    font-size: .6rem !important;}
+}
+
+@media (max-width: 700px) and (max-height:520px){
+  .product-filter{
+    height: 13vh;
+  }
+}

@@ -28,3 +28,32 @@
 .close-btn:hover{
     background-color: rgb(242, 105, 25);
 }
+
+@media (max-width: 700px) and (max-height:300px){
+    .cart-items{
+        height: 60vh !important;
+    }
+    .cart-buttons button{
+        height:40px;
+    }
+    .order-btn{
+        margin-right:20px;
+    }
+    .cart-item{
+        width:92%;
+    }
+}
+@media (max-width: 900px) and (max-height:520px){
+.cart-items{
+    height: 70vh;
+}
+.cart-buttons button{
+    height:40px;
+}
+.order-btn{
+    margin-right:20px;
+}
+.cart-item{
+    width:92%;
+}
+}

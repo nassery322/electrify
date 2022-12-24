@@ -106,3 +106,9 @@ animation-fill-mode: forwards;
       font-size: 3rem !important;
     }
   }
+
+  @media (max-width: 700px) and (max-height:520px){
+    .modal{
+      width: 100% !important;
+    }
+  }

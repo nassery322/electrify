@@ -11,7 +11,9 @@ ul li a {
 #nav-btn{
     display: none; font-size: 1.5rem; cursor: pointer;
 }
-
+#nav-btn:focus{
+    color:red !important;
+}
 @media screen and (max-width:690px){
     ul li  a{
         display: none; color: black !important; margin-bottom: 4px;
@@ -23,6 +25,6 @@ ul li a {
         background-color:orange !important;
     }
     #nav-btn{
-        display: block; float:right; 
+        display: block; float:right; margin-right: -10px;
     }
 }
